@@ -17,15 +17,15 @@ Most of the features of MacOS are working fine, including:
 
 ## Hardware Configuration
 
-|  Component   |         Model          |
-| :----------: | :--------------------: |
-| Motherboard  |          B360          |
-| BIOS Version |   M1UKT77A/1.0.0.119   |
-|     CPU      |     Intel i5-9500T     |
-|     iGPU     | Intel UHD Graphics 630 |
-|    Audio     |     Realtek ALC233     |
-|   Ethernet   |      Intel I219-V      |
-|   Wireless   |       BCM94360Z4       |
+|  Component   |                                                                                  Model                                                                                   |
+| :----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Motherboard  |                                                                                   B360                                                                                   |
+| BIOS Version | [M1UKT77A/1.0.0.119](https://support.lenovo.com/us/en/downloads/ds503907-flash-bios-update-thinkcentre-m720t-m720s-m720q-m920t-m920s-m920q-m920x-thinkstation-p330-tiny) |
+|     CPU      |                                                                              Intel i5-9500T                                                                              |
+|     iGPU     |                                                                          Intel UHD Graphics 630                                                                          |
+|    Audio     |                                                                              Realtek ALC233                                                                              |
+|   Ethernet   |                                                                               Intel I219-V                                                                               |
+|   Wireless   |                                                                                BCM94360Z4                                                                                |
 
 ## Folder Structure
 

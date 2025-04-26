@@ -1316,7 +1316,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=3 -amfipassbeta</string>
+				<string>-v keepsyms=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=72 -amfipassbeta</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>

@@ -1228,7 +1228,7 @@
 				<key>SystemAudioVolume</key>
 				<data>gA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=3</string>
+				<string>keepsyms=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=72</string>
 				<key>csr-active-config</key>
 				<data>B3CAAA==</data>
 				<key>prev-lang:kbd</key>

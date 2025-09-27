@@ -2,7 +2,7 @@
 
 ![about_this_mac](./README.assets/about_this_mac.png)
 
-This repository provides the EFI configuration for **[Lenovo ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** with **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** bootloader ([v1.0.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)).
+This repository provides the EFI configuration for **[Lenovo ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** with **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** bootloader ([v1.0.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)).
 
 Most of the features of MacOS are working fine, including:
 
@@ -58,3 +58,15 @@ And since the official BIOS does not provide an option for the **CFG Lock** swit
 Choose the appropriate configuration file and **rename it to `config.plist`**.
 
 *:warning: Remember to replace the `PlatformInfo` section with your own values in the `config.plist` file.*
+
+## MacOS 26 Tahoe
+
+This EFI configuration has been tested to work with **MacOS 26 Tahoe**.
+
+For better compatibility, I suggest modifying the `DeviceProperties` to devices explicitly supported by Apple, such as *iMac (Retina 5K, 27 inch, 2020)* (see [this page](https://support.apple.com/en-us/122867) for details).
+
+:warning: Please note: As of this writing (Sep 27, 2025), the latest version of [OCLP (2.4.1)](https://github.com/dortania/OpenCore-Legacy-Patcher) does not yet support Tahoe. This means Broadcom wireless cards cannot be driven, affecting functions like **Wi-Fi, Bluetooth, AirDrop, and Handoff**. Wired Ethernet connectivity remains unaffected.
+
+<img src="./README.assets/about_this_mac_tahoe.png" alt="about_this_mac_tahoe" width="300">
+
+<img src="./README.assets/control_center_tahoe.png" alt="control_center_tahoe" width="300">

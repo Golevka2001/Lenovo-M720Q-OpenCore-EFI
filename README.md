@@ -1,8 +1,10 @@
 # Lenovo-M720Q-OpenCore-EFI
 
+:loudspeaker: Before using this EFI, please read and understand the README completely to avoid unpredictable damage to the system or even hardware.
+
 ![about_this_mac](./README.assets/about_this_mac.png)
 
-This repository provides the EFI configuration for **[Lenovo ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** with **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** bootloader ([v1.0.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)).
+This repository provides the EFI configuration for **[Lenovo ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** with **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** bootloader ([v1.0.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.6)).
 
 Most of the features of MacOS are working fine, including:
 

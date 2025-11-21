@@ -1,5 +1,7 @@
 # Lenovo-M720Q-OpenCore-EFI
 
+English | [简体中文](./README_CN.md)
+
 :loudspeaker: Before using this EFI, please read and understand the README completely to avoid unpredictable damage to the system or even hardware.
 
 ![about_this_mac](./README.assets/about_this_mac.png)
@@ -67,7 +69,9 @@ This EFI configuration has been tested to work with **MacOS 26 Tahoe**.
 
 For better compatibility, I suggest modifying the `DeviceProperties` to devices explicitly supported by Apple, such as *iMac (Retina 5K, 27 inch, 2020)* (see [this page](https://support.apple.com/en-us/122867) for details).
 
-:warning: Please note: As of this writing (Sep 27, 2025), the latest version of [OCLP (2.4.1)](https://github.com/dortania/OpenCore-Legacy-Patcher) does not yet support Tahoe. This means Broadcom wireless cards cannot be driven, affecting functions like **Wi-Fi, Bluetooth, AirDrop, and Handoff**. Wired Ethernet connectivity remains unaffected.
+:warning: Please note: As of this writing (Sep 27, 2025), the latest version of [OCLP (2.4.1)](https://github.com/dortania/OpenCore-Legacy-Patcher) does not yet support Tahoe. This means Broadcom wireless cards cannot be driven, affecting functions like **Wi-Fi, Bluetooth, AirDrop, and Handoff**.
+
+Wired Ethernet connectivity remains unaffected.
 
 <img src="./README.assets/about_this_mac_tahoe.png" alt="about_this_mac_tahoe" width="300">
 

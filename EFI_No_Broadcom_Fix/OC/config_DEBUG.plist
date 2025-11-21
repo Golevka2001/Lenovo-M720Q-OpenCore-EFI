@@ -218,8 +218,6 @@
 				</dict>
 				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 				<dict>
-					<key>#framebuffer-unifiedmem</key>
-					<data>AAAAgA==</data>
 					<key>AAPL,ig-platform-id</key>
 					<data>BwCbPg==</data>
 					<key>AAPL,slot-name</key>
@@ -256,12 +254,6 @@
 					<data>EgAAAA==</data>
 					<key>framebuffer-con2-type</key>
 					<data>AAgAAA==</data>
-					<key>framebuffer-fbmem</key>
-					<data>AACQAA==</data>
-					<key>framebuffer-patch-enable</key>
-					<data>AQAAAA==</data>
-					<key>framebuffer-stolenmem</key>
-					<data>AAAwAQ==</data>
 					<key>hda-gfx</key>
 					<string>onboard-1</string>
 					<key>model</key>
@@ -355,7 +347,7 @@
 					<key>Comment</key>
 					<string>V1.0 | USBPorts.kext</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string></string>
 					<key>MaxKernel</key>
@@ -1248,7 +1240,7 @@
 					<key>SystemAudioVolume</key>
 					<data>Rg==</data>
 					<key>boot-args</key>
-					<string>-v keepsyms=1 revpatch=sbvmm swd_panic=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=72</string>
+					<string>-v keepsyms=1 revpatch=sbvmm swd_panic=1 igfxrpsc=1 igfxonln=1 igfxagdc=0 debug=0x100 alcdelay=1000 alcid=72</string>
 					<key>csr-active-config</key>
 					<data>AwgAAA==</data>
 					<key>prev-lang:kbd</key>

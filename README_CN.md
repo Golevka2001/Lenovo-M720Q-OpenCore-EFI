@@ -6,7 +6,7 @@
 
 ![about_this_mac](./README.assets/about_this_mac.png)
 
-本仓库为 **[联想 ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** 提供基于 **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** 引导加载程序 ([v1.0.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.6)) 的 EFI 配置。
+本仓库为 **[联想 ThinkCentre M720Q Tiny](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q)** 提供基于 **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** 引导加载程序 ([v1.0.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.8)) 的 EFI 配置。
 
 MacOS 的大部分功能运行良好，包括：
 
@@ -62,17 +62,3 @@ Lenovo-M720Q-OpenCore-EFI
 请选择合适的配置文件并**重命名为 `config.plist`**。
 
 *:warning: 请注意：请务必在 `config.plist` 文件中将 `PlatformInfo` 部分替换为您自己的值。*
-
-## MacOS 26 Tahoe
-
-本 EFI 配置已在 **MacOS 26 Tahoe** 上测试通过。
-
-为了获得更好的兼容性，建议将 `DeviceProperties` 修改为苹果明确支持的设备，例如 *iMac (Retina 5K, 27 inch, 2020)*（详情见[此页面](https://support.apple.com/en-us/122867)）。
-
-:warning: 请注意：截至本文档撰写时（2025 年 9 月 27 日），最新版本的 [OCLP (2.4.1)](https://github.com/dortania/OpenCore-Legacy-Patcher) 尚不支持 Tahoe。这意味着 Broadcom 无线网卡无法驱动，影响 **Wi-Fi、蓝牙、隔空投送和接力** 等功能。
-
-有线以太网连接不受影响。
-
-<img src="./README.assets/about_this_mac_tahoe.png" alt="about_this_mac_tahoe" width="300">
-
-<img src="./README.assets/control_center_tahoe.png" alt="control_center_tahoe" width="300">

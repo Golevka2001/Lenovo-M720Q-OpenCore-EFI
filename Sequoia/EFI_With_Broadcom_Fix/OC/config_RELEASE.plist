@@ -679,17 +679,17 @@
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>0</integer>
 			<key>LogModules</key>
 			<string></string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1122,7 +1122,7 @@
 				gA==
 				</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 igfxagdc=0 vm_compressor=4 amfi_get_out_of_my_way=1 -amfipassbeta</string>
+				<string>igfxagdc=0 vm_compressor=4 amfi_get_out_of_my_way=1 -amfipassbeta</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
